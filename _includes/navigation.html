@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+{% for page in site.sub_pages %}
+    <a href="{{ page.url }}">{{ page.title }}</a>
+{% endfor %}
+
+</html>

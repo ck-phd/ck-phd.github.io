@@ -3,3 +3,10 @@ title: Evolutionary Verification of Consistency Properties in Software Product L
 description: The Companion Website
 show_downloads: false
 github: [metadata]
+sub_pages:
+    - title: Home
+      url: /
+    - title: About
+      url: about
+    - title: Downloads
+      url: downloads
