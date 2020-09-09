@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-{% for page in site.sub_pages %}
-    <a href="{{ page.url }}">{{ page.title }}</a>
+{% for sub_page in site.sub_pages %}
+    {% if sub_page.url == page.url %}
+        <span class="active">
+            <a href="{{ sub_page.url }}">{{ sub_page.title }}</a>
+        </span>
+    {% else %}
+        <span class="passive">
+            <a href="{{ sub_page.url }}">{{ sub_page.title }}</a>
+        </span>
+    {% endif %}
 {% endfor %}
 
 </html>

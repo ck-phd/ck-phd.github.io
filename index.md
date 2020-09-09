@@ -3,6 +3,4 @@ title: "Home"
 permalink: /
 ---
 
-# ck-phd
-
-[under construction]
+# stay awhile and listen

@@ -7,6 +7,6 @@ sub_pages:
     - title: Home
       url: /
     - title: About
-      url: about
+      url: /about
     - title: Downloads
-      url: downloads
+      url: /downloads
